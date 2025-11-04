@@ -48,7 +48,7 @@ class Packet
     inline uint8_t getFlag(PacketFlag flag) {return (_flags & (1 << flag)) ? 1 : 0;}
 
     inline void setPriority(uint32_t p) {_priority = p;}
-    inline uint32_t getPriority() {return _priority;}
+    inline uint32_t getPriority() const {return _priority;}
 
     protected:
     void set(PacketFlow &flow, route_t &route, mem_b pkt_size, packetid_t id);

@@ -12,8 +12,8 @@
 class ComparePacketPriority
 {
 public:
-    bool operator() (Packet *a, Packet *b)
-    {
+    bool operator() (const Packet *a,const Packet *b)
+    const {
         if (a->getPriority() < b->getPriority()) {
             return true;
         } else {

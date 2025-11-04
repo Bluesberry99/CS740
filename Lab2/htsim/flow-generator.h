@@ -278,7 +278,7 @@ private:
     void note_flow_start(uint32_t id, uint64_t sizeB, simtime_picosec start);
     void note_flow_finish(uint32_t id, simtime_picosec end);
     void dumpFctSummary(); // 打印统计
-    static constexpr uint64_t SMALL_TH = 100 * 1024; // 100KB
+    static constexpr uint64_t SMALL_TH = 100 * 1000; // 100KB
 
     // per-run 累计量
     uint64_t _completed = 0;

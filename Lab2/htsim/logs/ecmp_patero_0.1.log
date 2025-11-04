@@ -1,0 +1,132 @@
+expt : 2
+workload : patero
+load : 0.1
+scheme : ecmp
+seed : 1
+
+=== DEBUG note_flow_start ===
+Flow ID: 6341
+Size: 100000 bytes
+Start (ps): 0
+Start (us): 0
+Start (ms): 0
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6345
+Size: 100000 bytes
+Start (ps): 156316
+Start (us): 0.156316
+Start (ms): 0.000156316
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6349
+Size: 100000 bytes
+Start (ps): 339417
+Start (us): 0.339417
+Start (ms): 0.000339417
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6353
+Size: 100000 bytes
+Start (ps): 661520
+Start (us): 0.66152
+Start (ms): 0.00066152
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6357
+Size: 100000 bytes
+Start (ps): 722301
+Start (us): 0.722301
+Start (ms): 0.000722301
+============================
+
+.
+=== DEBUG note_flow_finish ===
+Flow ID: 6361
+Size: 100000 bytes
+Start (ps): 1069021
+Start (us): 1.06902
+End (ps): 101290524
+End (us): 101.291
+Duration (ps): 100221503
+FCT (ms): 0.100222
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6353
+Size: 100000 bytes
+Start (ps): 661520
+Start (us): 0.66152
+End (ps): 102922635
+End (us): 102.923
+Duration (ps): 102261115
+FCT (ms): 0.102261
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6357
+Size: 100000 bytes
+Start (ps): 722301
+Start (us): 0.722301
+End (ps): 104317864
+End (us): 104.318
+Duration (ps): 103595563
+FCT (ms): 0.103596
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6345
+Size: 100000 bytes
+Start (ps): 156316
+Start (us): 0.156316
+End (ps): 104854553
+End (us): 104.855
+Duration (ps): 104698237
+FCT (ms): 0.104698
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6365
+Size: 100000 bytes
+Start (ps): 1220365
+Start (us): 1.22036
+End (ps): 105307760
+End (us): 105.308
+Duration (ps): 104087395
+FCT (ms): 0.104087
+Expected from logs: ~100+ ms
+============================
+
+........| simtime   0.012905 | realtime     9.3 | speed  0.012905  @  2296 Kops/s |
+.........| simtime   0.026279 | realtime    19.1 | speed  0.013374  @  2271 Kops/s |
+.........| simtime   0.039902 | realtime    29.2 | speed  0.013623  @  2253 Kops/s |
+.........| simtime   0.052914 | realtime    39.2 | speed  0.013012  @  2187 Kops/s |
+.........| simtime   0.065789 | realtime    49.2 | speed  0.012875  @  2158 Kops/s |
+.........| simtime   0.079084 | realtime    59.3 | speed  0.013295  @  2189 Kops/s |
+.........| simtime   0.091947 | realtime    69.3 | speed  0.012863  @  2131 Kops/s |
+......
+========= GLOBAL FCT SUMMARY (all FlowGenerators) =========
+Total completed flows   : 143775
+Total FCT (ms)          : 19014.5
+Average FCT (ms)        : 0.132252
+Small  (<100KB) count   : 0, avg FCT (ms): 0
+Large (>=100KB) count   : 143775, avg FCT (ms): 0.132252
+===========================================================
+
+Exiting successfully!

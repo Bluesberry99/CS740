@@ -1,0 +1,170 @@
+expt : 2
+workload : patero
+load : 0.3
+scheme : ecmp
+seed : 1
+
+=== DEBUG note_flow_start ===
+Flow ID: 6341
+Size: 100000 bytes
+Start (ps): 0
+Start (us): 0
+Start (ms): 0
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6345
+Size: 100000 bytes
+Start (ps): 52105
+Start (us): 0.052105
+Start (ms): 5.2105e-05
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6349
+Size: 100000 bytes
+Start (ps): 113138
+Start (us): 0.113138
+Start (ms): 0.000113138
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6353
+Size: 100000 bytes
+Start (ps): 220505
+Start (us): 0.220505
+Start (ms): 0.000220505
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6357
+Size: 100000 bytes
+Start (ps): 240765
+Start (us): 0.240765
+Start (ms): 0.000240765
+============================
+
+.
+=== DEBUG note_flow_finish ===
+Flow ID: 6353
+Size: 100000 bytes
+Start (ps): 220505
+Start (us): 0.220505
+End (ps): 105065304
+End (us): 105.065
+Duration (ps): 104844799
+FCT (ms): 0.104845
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6405
+Size: 100000 bytes
+Start (ps): 2705026
+Start (us): 2.70503
+End (ps): 105835106
+End (us): 105.835
+Duration (ps): 103130080
+FCT (ms): 0.10313
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6381
+Size: 100000 bytes
+Start (ps): 1170415
+Start (us): 1.17041
+End (ps): 106114787
+End (us): 106.115
+Duration (ps): 104944372
+FCT (ms): 0.104944
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6441
+Size: 100000 bytes
+Start (ps): 4052104
+Start (us): 4.0521
+End (ps): 106852866
+End (us): 106.853
+Duration (ps): 102800762
+FCT (ms): 0.102801
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6401
+Size: 100000 bytes
+Start (ps): 2667657
+Start (us): 2.66766
+End (ps): 107190969
+End (us): 107.191
+Duration (ps): 104523312
+FCT (ms): 0.104523
+Expected from logs: ~100+ ms
+============================
+
+........| simtime   0.003310 | realtime    10.4 | speed  0.003310  @  1517 Kops/s |
+.........| simtime   0.005985 | realtime    20.7 | speed  0.002674  @  1287 Kops/s |
+.........| simtime   0.008252 | realtime    30.9 | speed  0.002267  @  1101 Kops/s |
+.........| simtime   0.010260 | realtime    40.9 | speed  0.002008  @  1003 Kops/s |
+.........| simtime   0.012576 | realtime    50.8 | speed  0.002315  @  1161 Kops/s |
+.........| simtime   0.014864 | realtime    61.0 | speed  0.002289  @  1104 Kops/s |
+.........| simtime   0.016793 | realtime    71.0 | speed  0.001929  @   977 Kops/s |
+.........| simtime   0.018532 | realtime    81.3 | speed  0.001738  @   858 Kops/s |
+.........| simtime   0.020563 | realtime    91.3 | speed  0.002031  @   997 Kops/s |
+.........| simtime   0.022495 | realtime   101.3 | speed  0.001932  @   959 Kops/s |
+.........| simtime   0.024586 | realtime   111.2 | speed  0.002092  @  1045 Kops/s |
+.........| simtime   0.026822 | realtime   121.4 | speed  0.002235  @  1076 Kops/s |
+.........| simtime   0.028815 | realtime   131.4 | speed  0.001994  @   996 Kops/s |
+.........| simtime   0.031034 | realtime   141.4 | speed  0.002219  @  1081 Kops/s |
+.........| simtime   0.033321 | realtime   151.5 | speed  0.002287  @  1104 Kops/s |
+.........| simtime   0.035556 | realtime   161.5 | speed  0.002235  @  1119 Kops/s |
+.........| simtime   0.037908 | realtime   171.6 | speed  0.002353  @  1151 Kops/s |
+.........| simtime   0.039988 | realtime   181.5 | speed  0.002079  @  1031 Kops/s |
+.........| simtime   0.042047 | realtime   191.8 | speed  0.002060  @   998 Kops/s |
+.........| simtime   0.044100 | realtime   201.8 | speed  0.002052  @  1018 Kops/s |
+.........| simtime   0.046066 | realtime   211.7 | speed  0.001966  @   971 Kops/s |
+.........| simtime   0.048438 | realtime   221.7 | speed  0.002372  @  1159 Kops/s |
+.........| simtime   0.050569 | realtime   231.7 | speed  0.002131  @  1046 Kops/s |
+.........| simtime   0.052934 | realtime   242.0 | speed  0.002365  @  1135 Kops/s |
+.........| simtime   0.055198 | realtime   252.0 | speed  0.002265  @  1113 Kops/s |
+.........| simtime   0.057444 | realtime   262.0 | speed  0.002246  @  1105 Kops/s |
+.........| simtime   0.059742 | realtime   272.1 | speed  0.002298  @  1136 Kops/s |
+.........| simtime   0.061898 | realtime   282.0 | speed  0.002155  @  1086 Kops/s |
+.........| simtime   0.064167 | realtime   292.1 | speed  0.002269  @  1114 Kops/s |
+.........| simtime   0.066277 | realtime   302.3 | speed  0.002110  @  1037 Kops/s |
+.........| simtime   0.068473 | realtime   312.1 | speed  0.002196  @  1106 Kops/s |
+.........| simtime   0.070657 | realtime   322.3 | speed  0.002184  @  1069 Kops/s |
+.........| simtime   0.072683 | realtime   332.5 | speed  0.002025  @   988 Kops/s |
+.........| simtime   0.074798 | realtime   342.2 | speed  0.002115  @  1079 Kops/s |
+.........| simtime   0.077014 | realtime   352.3 | speed  0.002217  @  1102 Kops/s |
+.........| simtime   0.079300 | realtime   362.5 | speed  0.002285  @  1105 Kops/s |
+.........| simtime   0.081511 | realtime   372.4 | speed  0.002211  @  1112 Kops/s |
+.........| simtime   0.083810 | realtime   382.4 | speed  0.002299  @  1119 Kops/s |
+.........| simtime   0.086032 | realtime   392.5 | speed  0.002223  @  1099 Kops/s |
+.........| simtime   0.088368 | realtime   402.5 | speed  0.002336  @  1167 Kops/s |
+.........| simtime   0.090633 | realtime   412.7 | speed  0.002265  @  1101 Kops/s |
+.........| simtime   0.092696 | realtime   422.8 | speed  0.002063  @  1009 Kops/s |
+.........| simtime   0.094821 | realtime   432.8 | speed  0.002124  @  1051 Kops/s |
+.........| simtime   0.096922 | realtime   442.8 | speed  0.002102  @  1051 Kops/s |
+.........| simtime   0.099023 | realtime   452.8 | speed  0.002101  @  1038 Kops/s |
+....
+========= GLOBAL FCT SUMMARY (all FlowGenerators) =========
+Total completed flows   : 430737
+Total FCT (ms)          : 105959
+Average FCT (ms)        : 0.245994
+Small  (<100KB) count   : 0, avg FCT (ms): 0
+Large (>=100KB) count   : 430737, avg FCT (ms): 0.245994
+===========================================================
+
+Exiting successfully!

@@ -57,7 +57,7 @@ QueueLoggerSampling::doNextEvent()
 
     _logfile->writeRecord(QUEUE_RECORD, _queue->id, CUM_TRAFFIC, _cumarr, _cumidle, _cumdrop);
 
-// #if MING_PROF
+//#if MING_PROF
 //     _queue->printStats();
 // #endif
 }
@@ -120,10 +120,10 @@ QueueLoggerSampling::logQueue(Queue& queue,
             break;
     }
 
-    //if (!_printed && queue._queuesize > 50000) {
-    //    queue.printStats();
-    //    _printed = true;
-    //}
+//    if (!_printed && queue._queuesize > 50000) {
+//        queue.printStats();
+//        _printed = true;
+//    }
 }
 
 

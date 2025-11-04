@@ -1,0 +1,498 @@
+expt : 2
+workload : patero
+load : 0.7
+scheme : ecmp
+seed : 1
+
+=== DEBUG note_flow_start ===
+Flow ID: 6341
+Size: 100000 bytes
+Start (ps): 0
+Start (us): 0
+Start (ms): 0
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6345
+Size: 100000 bytes
+Start (ps): 22330
+Start (us): 0.02233
+Start (ms): 2.233e-05
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6349
+Size: 100000 bytes
+Start (ps): 48487
+Start (us): 0.048487
+Start (ms): 4.8487e-05
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6353
+Size: 100000 bytes
+Start (ps): 94501
+Start (us): 0.094501
+Start (ms): 9.4501e-05
+============================
+
+
+=== DEBUG note_flow_start ===
+Flow ID: 6357
+Size: 100000 bytes
+Start (ps): 103184
+Start (us): 0.103184
+Start (ms): 0.000103184
+============================
+
+.
+=== DEBUG note_flow_finish ===
+Flow ID: 6381
+Size: 100000 bytes
+Start (ps): 501603
+Start (us): 0.501603
+End (ps): 106094590
+End (us): 106.095
+Duration (ps): 105592987
+FCT (ms): 0.105593
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6409
+Size: 100000 bytes
+Start (ps): 1186483
+Start (us): 1.18648
+End (ps): 107707283
+End (us): 107.707
+Duration (ps): 106520800
+FCT (ms): 0.106521
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6513
+Size: 100000 bytes
+Start (ps): 3454619
+Start (us): 3.45462
+End (ps): 108686277
+End (us): 108.686
+Duration (ps): 105231658
+FCT (ms): 0.105232
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6477
+Size: 100000 bytes
+Start (ps): 2380560
+Start (us): 2.38056
+End (ps): 109214707
+End (us): 109.215
+Duration (ps): 106834147
+FCT (ms): 0.106834
+Expected from logs: ~100+ ms
+============================
+
+
+=== DEBUG note_flow_finish ===
+Flow ID: 6633
+Size: 100000 bytes
+Start (ps): 6515989
+Start (us): 6.51599
+End (ps): 110334423
+End (us): 110.334
+Duration (ps): 103818434
+FCT (ms): 0.103818
+Expected from logs: ~100+ ms
+============================
+
+........| simtime   0.001779 | realtime    18.3 | speed  0.001779  @   804 Kops/s |
+.........| simtime   0.002419 | realtime    28.4 | speed  0.000640  @   599 Kops/s |
+.........| simtime   0.003003 | realtime    38.7 | speed  0.000584  @   550 Kops/s |
+.........| simtime   0.003553 | realtime    48.6 | speed  0.000550  @   541 Kops/s |
+.........| simtime   0.004112 | realtime    58.5 | speed  0.000559  @   561 Kops/s |
+.........| simtime   0.004653 | realtime    68.7 | speed  0.000540  @   531 Kops/s |
+.........| simtime   0.005158 | realtime    78.7 | speed  0.000505  @   504 Kops/s |
+.........| simtime   0.005645 | realtime    88.9 | speed  0.000487  @   482 Kops/s |
+.........| simtime   0.006125 | realtime    98.7 | speed  0.000480  @   491 Kops/s |
+.........| simtime   0.006623 | realtime   108.8 | speed  0.000499  @   502 Kops/s |
+.........| simtime   0.007107 | realtime   118.8 | speed  0.000484  @   494 Kops/s |
+.........| simtime   0.007560 | realtime   128.8 | speed  0.000453  @   461 Kops/s |
+.........| simtime   0.008001 | realtime   139.0 | speed  0.000440  @   446 Kops/s |
+.........| simtime   0.008417 | realtime   149.0 | speed  0.000417  @   428 Kops/s |
+.........| simtime   0.008842 | realtime   159.0 | speed  0.000425  @   441 Kops/s |
+.........| simtime   0.009270 | realtime   169.0 | speed  0.000427  @   442 Kops/s |
+.........| simtime   0.009698 | realtime   179.0 | speed  0.000428  @   444 Kops/s |
+.........| simtime   0.010124 | realtime   189.0 | speed  0.000426  @   439 Kops/s |
+.........| simtime   0.010576 | realtime   199.1 | speed  0.000452  @   466 Kops/s |
+.........| simtime   0.011015 | realtime   209.0 | speed  0.000439  @   459 Kops/s |
+.........| simtime   0.011441 | realtime   219.0 | speed  0.000427  @   441 Kops/s |
+.........| simtime   0.011885 | realtime   229.0 | speed  0.000443  @   460 Kops/s |
+.........| simtime   0.012316 | realtime   239.0 | speed  0.000431  @   450 Kops/s |
+.........| simtime   0.012756 | realtime   249.1 | speed  0.000440  @   457 Kops/s |
+.........| simtime   0.013170 | realtime   259.1 | speed  0.000415  @   433 Kops/s |
+.........| simtime   0.013583 | realtime   269.1 | speed  0.000413  @   429 Kops/s |
+.........| simtime   0.013993 | realtime   279.1 | speed  0.000409  @   430 Kops/s |
+.........| simtime   0.014405 | realtime   289.2 | speed  0.000412  @   428 Kops/s |
+.........| simtime   0.014806 | realtime   299.2 | speed  0.000402  @   425 Kops/s |
+.........| simtime   0.015195 | realtime   309.2 | speed  0.000389  @   408 Kops/s |
+.........| simtime   0.015605 | realtime   319.1 | speed  0.000409  @   433 Kops/s |
+.........| simtime   0.016012 | realtime   329.2 | speed  0.000407  @   425 Kops/s |
+.........| simtime   0.016423 | realtime   339.2 | speed  0.000411  @   434 Kops/s |
+.........| simtime   0.016800 | realtime   349.5 | speed  0.000377  @   385 Kops/s |
+.........| simtime   0.017157 | realtime   359.4 | speed  0.000357  @   382 Kops/s |
+.........| simtime   0.017536 | realtime   369.3 | speed  0.000379  @   404 Kops/s |
+.........| simtime   0.017902 | realtime   379.4 | speed  0.000366  @   382 Kops/s |
+.........| simtime   0.018270 | realtime   389.4 | speed  0.000368  @   389 Kops/s |
+.........| simtime   0.018622 | realtime   399.5 | speed  0.000352  @   371 Kops/s |
+.........| simtime   0.018966 | realtime   409.7 | speed  0.000344  @   360 Kops/s |
+.........| simtime   0.019324 | realtime   419.5 | speed  0.000358  @   386 Kops/s |
+.........| simtime   0.019693 | realtime   429.6 | speed  0.000369  @   386 Kops/s |
+.........| simtime   0.020016 | realtime   439.7 | speed  0.000323  @   339 Kops/s |
+.........| simtime   0.020334 | realtime   449.7 | speed  0.000318  @   338 Kops/s |
+.........| simtime   0.020667 | realtime   459.7 | speed  0.000333  @   355 Kops/s |
+.........| simtime   0.021008 | realtime   469.7 | speed  0.000341  @   359 Kops/s |
+.........| simtime   0.021343 | realtime   479.7 | speed  0.000335  @   358 Kops/s |
+.........| simtime   0.021667 | realtime   489.7 | speed  0.000324  @   342 Kops/s |
+.........| simtime   0.022000 | realtime   499.6 | speed  0.000333  @   358 Kops/s |
+.........| simtime   0.022321 | realtime   509.8 | speed  0.000322  @   338 Kops/s |
+.........| simtime   0.022638 | realtime   519.7 | speed  0.000317  @   339 Kops/s |
+.........| simtime   0.022972 | realtime   529.8 | speed  0.000333  @   354 Kops/s |
+.........| simtime   0.023256 | realtime   540.1 | speed  0.000284  @   293 Kops/s |
+.........| simtime   0.023570 | realtime   550.1 | speed  0.000314  @   334 Kops/s |
+.........| simtime   0.023892 | realtime   560.1 | speed  0.000323  @   344 Kops/s |
+.........| simtime   0.024190 | realtime   570.1 | speed  0.000298  @   316 Kops/s |
+.........| simtime   0.024489 | realtime   580.1 | speed  0.000299  @   318 Kops/s |
+.........| simtime   0.024807 | realtime   590.1 | speed  0.000317  @   341 Kops/s |
+.........| simtime   0.025133 | realtime   600.1 | speed  0.000326  @   346 Kops/s |
+.........| simtime   0.025472 | realtime   610.0 | speed  0.000339  @   364 Kops/s |
+.........| simtime   0.025816 | realtime   620.0 | speed  0.000344  @   368 Kops/s |
+.........| simtime   0.026166 | realtime   630.0 | speed  0.000350  @   372 Kops/s |
+.........| simtime   0.026511 | realtime   640.1 | speed  0.000345  @   366 Kops/s |
+.........| simtime   0.026850 | realtime   650.0 | speed  0.000338  @   361 Kops/s |
+.........| simtime   0.027198 | realtime   660.1 | speed  0.000348  @   367 Kops/s |
+.........| simtime   0.027528 | realtime   670.2 | speed  0.000331  @   350 Kops/s |
+.........| simtime   0.027862 | realtime   680.0 | speed  0.000333  @   361 Kops/s |
+.........| simtime   0.028196 | realtime   690.2 | speed  0.000334  @   350 Kops/s |
+.........| simtime   0.028526 | realtime   700.2 | speed  0.000330  @   354 Kops/s |
+.........| simtime   0.028857 | realtime   710.2 | speed  0.000331  @   355 Kops/s |
+.........| simtime   0.029204 | realtime   720.2 | speed  0.000347  @   371 Kops/s |
+.........| simtime   0.029539 | realtime   730.2 | speed  0.000335  @   356 Kops/s |
+.........| simtime   0.029884 | realtime   740.2 | speed  0.000344  @   370 Kops/s |
+.........| simtime   0.030226 | realtime   750.2 | speed  0.000343  @   366 Kops/s |
+.........| simtime   0.030573 | realtime   760.3 | speed  0.000347  @   368 Kops/s |
+.........| simtime   0.030902 | realtime   770.2 | speed  0.000328  @   355 Kops/s |
+.........| simtime   0.031249 | realtime   780.3 | speed  0.000348  @   369 Kops/s |
+.........| simtime   0.031584 | realtime   790.3 | speed  0.000334  @   359 Kops/s |
+.........| simtime   0.031917 | realtime   800.3 | speed  0.000333  @   357 Kops/s |
+.........| simtime   0.032247 | realtime   810.3 | speed  0.000330  @   355 Kops/s |
+.........| simtime   0.032546 | realtime   820.4 | speed  0.000299  @   318 Kops/s |
+.........| simtime   0.032863 | realtime   830.5 | speed  0.000317  @   335 Kops/s |
+.........| simtime   0.033162 | realtime   840.5 | speed  0.000299  @   323 Kops/s |
+.........| simtime   0.033472 | realtime   850.6 | speed  0.000310  @   330 Kops/s |
+.........| simtime   0.033772 | realtime   860.5 | speed  0.000300  @   324 Kops/s |
+.........| simtime   0.034077 | realtime   870.6 | speed  0.000305  @   326 Kops/s |
+.........| simtime   0.034384 | realtime   880.4 | speed  0.000307  @   334 Kops/s |
+.........| simtime   0.034719 | realtime   890.5 | speed  0.000335  @   357 Kops/s |
+.........| simtime   0.035028 | realtime   900.5 | speed  0.000309  @   333 Kops/s |
+.........| simtime   0.035357 | realtime   910.6 | speed  0.000329  @   350 Kops/s |
+.........| simtime   0.035671 | realtime   920.6 | speed  0.000314  @   338 Kops/s |
+.........| simtime   0.035989 | realtime   930.6 | speed  0.000318  @   339 Kops/s |
+.........| simtime   0.036299 | realtime   940.6 | speed  0.000310  @   335 Kops/s |
+.........| simtime   0.036616 | realtime   950.6 | speed  0.000317  @   343 Kops/s |
+.........| simtime   0.036922 | realtime   960.7 | speed  0.000306  @   324 Kops/s |
+.........| simtime   0.037233 | realtime   970.8 | speed  0.000311  @   333 Kops/s |
+.........| simtime   0.037544 | realtime   980.7 | speed  0.000311  @   337 Kops/s |
+.........| simtime   0.037846 | realtime   990.7 | speed  0.000302  @   324 Kops/s |
+.........| simtime   0.038134 | realtime  1000.8 | speed  0.000288  @   307 Kops/s |
+.........| simtime   0.038426 | realtime  1010.8 | speed  0.000291  @   314 Kops/s |
+.........| simtime   0.038721 | realtime  1020.8 | speed  0.000295  @   319 Kops/s |
+.........| simtime   0.039012 | realtime  1030.9 | speed  0.000291  @   311 Kops/s |
+.........| simtime   0.039298 | realtime  1040.8 | speed  0.000286  @   310 Kops/s |
+.........| simtime   0.039572 | realtime  1051.0 | speed  0.000274  @   290 Kops/s |
+.........| simtime   0.039827 | realtime  1061.0 | speed  0.000255  @   274 Kops/s |
+.........| simtime   0.040073 | realtime  1071.1 | speed  0.000246  @   264 Kops/s |
+.........| simtime   0.040294 | realtime  1081.2 | speed  0.000221  @   235 Kops/s |
+.........| simtime   0.040537 | realtime  1091.0 | speed  0.000244  @   266 Kops/s |
+.........| simtime   0.040814 | realtime  1101.0 | speed  0.000277  @   299 Kops/s |
+.........| simtime   0.041076 | realtime  1111.1 | speed  0.000261  @   280 Kops/s |
+.........| simtime   0.041346 | realtime  1121.1 | speed  0.000270  @   289 Kops/s |
+.........| simtime   0.041632 | realtime  1131.0 | speed  0.000286  @   313 Kops/s |
+.........| simtime   0.041931 | realtime  1140.9 | speed  0.000299  @   325 Kops/s |
+.........| simtime   0.042238 | realtime  1151.0 | speed  0.000308  @   329 Kops/s |
+.........| simtime   0.042519 | realtime  1161.1 | speed  0.000281  @   300 Kops/s |
+.........| simtime   0.042784 | realtime  1171.1 | speed  0.000265  @   285 Kops/s |
+.........| simtime   0.043042 | realtime  1181.0 | speed  0.000258  @   280 Kops/s |
+.........| simtime   0.043328 | realtime  1191.2 | speed  0.000285  @   305 Kops/s |
+.........| simtime   0.043596 | realtime  1201.1 | speed  0.000268  @   291 Kops/s |
+.........| simtime   0.043866 | realtime  1211.1 | speed  0.000270  @   290 Kops/s |
+.........| simtime   0.044131 | realtime  1221.1 | speed  0.000265  @   287 Kops/s |
+.........| simtime   0.044385 | realtime  1231.2 | speed  0.000254  @   273 Kops/s |
+.........| simtime   0.044649 | realtime  1241.0 | speed  0.000264  @   288 Kops/s |
+.........| simtime   0.044941 | realtime  1251.0 | speed  0.000292  @   315 Kops/s |
+.........| simtime   0.045234 | realtime  1261.1 | speed  0.000293  @   314 Kops/s |
+.........| simtime   0.045498 | realtime  1271.2 | speed  0.000264  @   283 Kops/s |
+.........| simtime   0.045770 | realtime  1281.2 | speed  0.000272  @   295 Kops/s |
+.........| simtime   0.046031 | realtime  1291.2 | speed  0.000260  @   279 Kops/s |
+.........| simtime   0.046299 | realtime  1301.2 | speed  0.000269  @   290 Kops/s |
+.........| simtime   0.046565 | realtime  1311.2 | speed  0.000266  @   287 Kops/s |
+.........| simtime   0.046829 | realtime  1321.3 | speed  0.000264  @   283 Kops/s |
+.........| simtime   0.047062 | realtime  1331.5 | speed  0.000233  @   247 Kops/s |
+.........| simtime   0.047316 | realtime  1341.3 | speed  0.000254  @   280 Kops/s |
+.........| simtime   0.047598 | realtime  1351.2 | speed  0.000282  @   307 Kops/s |
+.........| simtime   0.047885 | realtime  1361.4 | speed  0.000287  @   304 Kops/s |
+.........| simtime   0.048165 | realtime  1371.2 | speed  0.000280  @   307 Kops/s |
+.........| simtime   0.048453 | realtime  1381.3 | speed  0.000288  @   310 Kops/s |
+.........| simtime   0.048730 | realtime  1391.3 | speed  0.000277  @   297 Kops/s |
+.........| simtime   0.049009 | realtime  1401.4 | speed  0.000279  @   300 Kops/s |
+.........| simtime   0.049288 | realtime  1411.6 | speed  0.000279  @   295 Kops/s |
+.........| simtime   0.049549 | realtime  1421.4 | speed  0.000261  @   289 Kops/s |
+.........| simtime   0.049845 | realtime  1431.4 | speed  0.000296  @   319 Kops/s |
+.........| simtime   0.050114 | realtime  1441.5 | speed  0.000269  @   288 Kops/s |
+.........| simtime   0.050386 | realtime  1451.6 | speed  0.000272  @   289 Kops/s |
+.........| simtime   0.050651 | realtime  1461.5 | speed  0.000265  @   290 Kops/s |
+.........| simtime   0.050935 | realtime  1471.6 | speed  0.000284  @   304 Kops/s |
+.........| simtime   0.051213 | realtime  1481.5 | speed  0.000278  @   300 Kops/s |
+.........| simtime   0.051480 | realtime  1491.5 | speed  0.000267  @   289 Kops/s |
+.........| simtime   0.051763 | realtime  1501.6 | speed  0.000283  @   304 Kops/s |
+.........| simtime   0.052029 | realtime  1511.6 | speed  0.000266  @   288 Kops/s |
+.........| simtime   0.052296 | realtime  1521.5 | speed  0.000267  @   290 Kops/s |
+.........| simtime   0.052566 | realtime  1531.7 | speed  0.000270  @   289 Kops/s |
+.........| simtime   0.052837 | realtime  1541.6 | speed  0.000271  @   293 Kops/s |
+.........| simtime   0.053105 | realtime  1551.6 | speed  0.000268  @   291 Kops/s |
+.........| simtime   0.053392 | realtime  1561.7 | speed  0.000287  @   307 Kops/s |
+.........| simtime   0.053680 | realtime  1571.6 | speed  0.000288  @   313 Kops/s |
+.........| simtime   0.053958 | realtime  1581.7 | speed  0.000278  @   299 Kops/s |
+.........| simtime   0.054237 | realtime  1591.7 | speed  0.000279  @   301 Kops/s |
+.........| simtime   0.054521 | realtime  1601.6 | speed  0.000284  @   311 Kops/s |
+.........| simtime   0.054815 | realtime  1611.8 | speed  0.000293  @   311 Kops/s |
+.........| simtime   0.055079 | realtime  1621.9 | speed  0.000264  @   285 Kops/s |
+.........| simtime   0.055356 | realtime  1631.8 | speed  0.000277  @   303 Kops/s |
+.........| simtime   0.055641 | realtime  1641.7 | speed  0.000285  @   308 Kops/s |
+.........| simtime   0.055921 | realtime  1651.8 | speed  0.000280  @   300 Kops/s |
+.........| simtime   0.056196 | realtime  1661.8 | speed  0.000275  @   299 Kops/s |
+.........| simtime   0.056484 | realtime  1671.9 | speed  0.000288  @   309 Kops/s |
+.........| simtime   0.056764 | realtime  1681.8 | speed  0.000280  @   306 Kops/s |
+.........| simtime   0.057052 | realtime  1691.9 | speed  0.000288  @   307 Kops/s |
+.........| simtime   0.057307 | realtime  1701.9 | speed  0.000255  @   277 Kops/s |
+.........| simtime   0.057578 | realtime  1711.9 | speed  0.000271  @   293 Kops/s |
+.........| simtime   0.057855 | realtime  1721.9 | speed  0.000277  @   301 Kops/s |
+.........| simtime   0.058147 | realtime  1731.9 | speed  0.000292  @   314 Kops/s |
+.........| simtime   0.058429 | realtime  1741.8 | speed  0.000282  @   308 Kops/s |
+.........| simtime   0.058701 | realtime  1752.1 | speed  0.000273  @   288 Kops/s |
+.........| simtime   0.058976 | realtime  1762.0 | speed  0.000275  @   301 Kops/s |
+.........| simtime   0.059253 | realtime  1772.1 | speed  0.000277  @   296 Kops/s |
+.........| simtime   0.059526 | realtime  1782.0 | speed  0.000273  @   299 Kops/s |
+.........| simtime   0.059799 | realtime  1792.1 | speed  0.000273  @   291 Kops/s |
+.........| simtime   0.060067 | realtime  1802.0 | speed  0.000268  @   292 Kops/s |
+.........| simtime   0.060336 | realtime  1812.2 | speed  0.000269  @   287 Kops/s |
+.........| simtime   0.060606 | realtime  1822.1 | speed  0.000270  @   297 Kops/s |
+.........| simtime   0.060869 | realtime  1832.2 | speed  0.000263  @   280 Kops/s |
+.........| simtime   0.061119 | realtime  1842.2 | speed  0.000249  @   271 Kops/s |
+.........| simtime   0.061372 | realtime  1852.1 | speed  0.000254  @   276 Kops/s |
+.........| simtime   0.061636 | realtime  1862.2 | speed  0.000264  @   285 Kops/s |
+.........| simtime   0.061879 | realtime  1872.3 | speed  0.000243  @   260 Kops/s |
+.........| simtime   0.062126 | realtime  1882.3 | speed  0.000247  @   268 Kops/s |
+.........| simtime   0.062325 | realtime  1892.6 | speed  0.000198  @   207 Kops/s |
+.........| simtime   0.062520 | realtime  1902.6 | speed  0.000195  @   210 Kops/s |
+.........| simtime   0.062699 | realtime  1912.8 | speed  0.000179  @   190 Kops/s |
+.........| simtime   0.062876 | realtime  1922.7 | speed  0.000177  @   193 Kops/s |
+.........| simtime   0.063056 | realtime  1932.7 | speed  0.000180  @   194 Kops/s |
+.........| simtime   0.063233 | realtime  1942.8 | speed  0.000177  @   190 Kops/s |
+.........| simtime   0.063406 | realtime  1952.8 | speed  0.000173  @   188 Kops/s |
+.........| simtime   0.063591 | realtime  1962.9 | speed  0.000185  @   198 Kops/s |
+.........| simtime   0.063799 | realtime  1972.7 | speed  0.000208  @   229 Kops/s |
+.........| simtime   0.064003 | realtime  1982.8 | speed  0.000204  @   219 Kops/s |
+.........| simtime   0.064204 | realtime  1992.7 | speed  0.000201  @   219 Kops/s |
+.........| simtime   0.064430 | realtime  2002.9 | speed  0.000226  @   240 Kops/s |
+.........| simtime   0.064633 | realtime  2012.8 | speed  0.000203  @   222 Kops/s |
+.........| simtime   0.064851 | realtime  2022.8 | speed  0.000217  @   235 Kops/s |
+.........| simtime   0.065067 | realtime  2032.8 | speed  0.000216  @   234 Kops/s |
+.........| simtime   0.065275 | realtime  2042.8 | speed  0.000208  @   226 Kops/s |
+.........| simtime   0.065489 | realtime  2052.7 | speed  0.000214  @   234 Kops/s |
+.........| simtime   0.065698 | realtime  2063.0 | speed  0.000209  @   221 Kops/s |
+.........| simtime   0.065886 | realtime  2073.0 | speed  0.000187  @   202 Kops/s |
+.........| simtime   0.066056 | realtime  2083.2 | speed  0.000171  @   181 Kops/s |
+.........| simtime   0.066235 | realtime  2093.0 | speed  0.000179  @   195 Kops/s |
+.........| simtime   0.066430 | realtime  2103.1 | speed  0.000195  @   210 Kops/s |
+.........| simtime   0.066638 | realtime  2113.1 | speed  0.000209  @   225 Kops/s |
+.........| simtime   0.066865 | realtime  2122.8 | speed  0.000227  @   253 Kops/s |
+.........| simtime   0.067121 | realtime  2132.9 | speed  0.000256  @   274 Kops/s |
+.........| simtime   0.067357 | realtime  2143.0 | speed  0.000236  @   255 Kops/s |
+.........| simtime   0.067562 | realtime  2153.2 | speed  0.000205  @   218 Kops/s |
+.........| simtime   0.067756 | realtime  2163.3 | speed  0.000193  @   207 Kops/s |
+.........| simtime   0.067959 | realtime  2173.0 | speed  0.000203  @   226 Kops/s |
+.........| simtime   0.068210 | realtime  2183.0 | speed  0.000251  @   273 Kops/s |
+.........| simtime   0.068440 | realtime  2193.1 | speed  0.000230  @   247 Kops/s |
+.........| simtime   0.068625 | realtime  2203.4 | speed  0.000185  @   193 Kops/s |
+.........| simtime   0.068781 | realtime  2213.5 | speed  0.000157  @   168 Kops/s |
+.........| simtime   0.068961 | realtime  2223.4 | speed  0.000180  @   198 Kops/s |
+.........| simtime   0.069146 | realtime  2233.3 | speed  0.000186  @   202 Kops/s |
+.........| simtime   0.069334 | realtime  2243.3 | speed  0.000187  @   203 Kops/s |
+.........| simtime   0.069515 | realtime  2253.4 | speed  0.000181  @   194 Kops/s |
+.........| simtime   0.069700 | realtime  2263.5 | speed  0.000185  @   200 Kops/s |
+.........| simtime   0.069886 | realtime  2273.4 | speed  0.000186  @   203 Kops/s |
+.........| simtime   0.070090 | realtime  2283.3 | speed  0.000203  @   223 Kops/s |
+.........| simtime   0.070321 | realtime  2293.2 | speed  0.000231  @   251 Kops/s |
+.........| simtime   0.070558 | realtime  2303.2 | speed  0.000237  @   257 Kops/s |
+.........| simtime   0.070787 | realtime  2313.5 | speed  0.000230  @   242 Kops/s |
+.........| simtime   0.071015 | realtime  2323.3 | speed  0.000228  @   252 Kops/s |
+.........| simtime   0.071244 | realtime  2333.3 | speed  0.000229  @   251 Kops/s |
+.........| simtime   0.071475 | realtime  2343.3 | speed  0.000230  @   248 Kops/s |
+.........| simtime   0.071693 | realtime  2353.4 | speed  0.000218  @   236 Kops/s |
+.........| simtime   0.071914 | realtime  2363.4 | speed  0.000221  @   240 Kops/s |
+.........| simtime   0.072133 | realtime  2373.4 | speed  0.000219  @   239 Kops/s |
+.........| simtime   0.072359 | realtime  2383.3 | speed  0.000226  @   246 Kops/s |
+.........| simtime   0.072588 | realtime  2393.3 | speed  0.000229  @   248 Kops/s |
+.........| simtime   0.072819 | realtime  2403.4 | speed  0.000231  @   250 Kops/s |
+.........| simtime   0.073058 | realtime  2413.4 | speed  0.000239  @   259 Kops/s |
+.........| simtime   0.073303 | realtime  2423.3 | speed  0.000244  @   269 Kops/s |
+.........| simtime   0.073551 | realtime  2433.3 | speed  0.000248  @   266 Kops/s |
+.........| simtime   0.073778 | realtime  2443.4 | speed  0.000227  @   246 Kops/s |
+.........| simtime   0.073959 | realtime  2453.7 | speed  0.000182  @   190 Kops/s |
+.........| simtime   0.074147 | realtime  2463.7 | speed  0.000187  @   205 Kops/s |
+.........| simtime   0.074330 | realtime  2473.8 | speed  0.000184  @   197 Kops/s |
+.........| simtime   0.074498 | realtime  2483.8 | speed  0.000168  @   182 Kops/s |
+.........| simtime   0.074674 | realtime  2493.4 | speed  0.000175  @   198 Kops/s |
+.........| simtime   0.074917 | realtime  2503.4 | speed  0.000244  @   265 Kops/s |
+.........| simtime   0.075172 | realtime  2513.5 | speed  0.000255  @   276 Kops/s |
+.........| simtime   0.075429 | realtime  2523.4 | speed  0.000256  @   281 Kops/s |
+.........| simtime   0.075689 | realtime  2533.4 | speed  0.000260  @   282 Kops/s |
+.........| simtime   0.075948 | realtime  2543.4 | speed  0.000259  @   282 Kops/s |
+.........| simtime   0.076204 | realtime  2553.6 | speed  0.000255  @   273 Kops/s |
+.........| simtime   0.076432 | realtime  2563.6 | speed  0.000228  @   246 Kops/s |
+.........| simtime   0.076664 | realtime  2573.6 | speed  0.000232  @   254 Kops/s |
+.........| simtime   0.076898 | realtime  2583.6 | speed  0.000234  @   253 Kops/s |
+.........| simtime   0.077127 | realtime  2593.6 | speed  0.000230  @   249 Kops/s |
+.........| simtime   0.077355 | realtime  2603.7 | speed  0.000228  @   244 Kops/s |
+.........| simtime   0.077587 | realtime  2613.6 | speed  0.000232  @   255 Kops/s |
+.........| simtime   0.077822 | realtime  2623.7 | speed  0.000234  @   253 Kops/s |
+.........| simtime   0.078051 | realtime  2633.6 | speed  0.000230  @   254 Kops/s |
+.........| simtime   0.078296 | realtime  2643.8 | speed  0.000245  @   263 Kops/s |
+.........| simtime   0.078527 | realtime  2653.6 | speed  0.000231  @   254 Kops/s |
+.........| simtime   0.078772 | realtime  2663.7 | speed  0.000244  @   265 Kops/s |
+.........| simtime   0.079016 | realtime  2673.7 | speed  0.000244  @   266 Kops/s |
+.........| simtime   0.079264 | realtime  2683.7 | speed  0.000248  @   270 Kops/s |
+.........| simtime   0.079522 | realtime  2693.7 | speed  0.000257  @   280 Kops/s |
+.........| simtime   0.079776 | realtime  2703.6 | speed  0.000254  @   277 Kops/s |
+.........| simtime   0.080031 | realtime  2713.7 | speed  0.000256  @   277 Kops/s |
+.........| simtime   0.080288 | realtime  2723.7 | speed  0.000257  @   280 Kops/s |
+.........| simtime   0.080554 | realtime  2733.6 | speed  0.000266  @   294 Kops/s |
+.........| simtime   0.080818 | realtime  2743.6 | speed  0.000264  @   285 Kops/s |
+.........| simtime   0.081098 | realtime  2753.7 | speed  0.000279  @   300 Kops/s |
+.........| simtime   0.081363 | realtime  2763.7 | speed  0.000265  @   291 Kops/s |
+.........| simtime   0.081626 | realtime  2773.8 | speed  0.000263  @   284 Kops/s |
+.........| simtime   0.081859 | realtime  2784.2 | speed  0.000232  @   245 Kops/s |
+.........| simtime   0.082030 | realtime  2794.2 | speed  0.000172  @   185 Kops/s |
+.........| simtime   0.082204 | realtime  2804.1 | speed  0.000174  @   192 Kops/s |
+.........| simtime   0.082392 | realtime  2814.1 | speed  0.000188  @   206 Kops/s |
+.........| simtime   0.082592 | realtime  2824.2 | speed  0.000200  @   215 Kops/s |
+.........| simtime   0.082777 | realtime  2834.1 | speed  0.000185  @   203 Kops/s |
+.........| simtime   0.082989 | realtime  2844.0 | speed  0.000212  @   232 Kops/s |
+.........| simtime   0.083211 | realtime  2854.1 | speed  0.000222  @   239 Kops/s |
+.........| simtime   0.083448 | realtime  2864.1 | speed  0.000237  @   259 Kops/s |
+.........| simtime   0.083648 | realtime  2874.6 | speed  0.000201  @   209 Kops/s |
+.........| simtime   0.083804 | realtime  2884.6 | speed  0.000156  @   170 Kops/s |
+.........| simtime   0.083961 | realtime  2894.6 | speed  0.000157  @   170 Kops/s |
+.........| simtime   0.084132 | realtime  2904.4 | speed  0.000171  @   190 Kops/s |
+.........| simtime   0.084303 | realtime  2914.5 | speed  0.000170  @   184 Kops/s |
+.........| simtime   0.084503 | realtime  2924.3 | speed  0.000201  @   224 Kops/s |
+.........| simtime   0.084728 | realtime  2934.3 | speed  0.000224  @   246 Kops/s |
+.........| simtime   0.084964 | realtime  2944.2 | speed  0.000236  @   259 Kops/s |
+.........| simtime   0.085183 | realtime  2954.5 | speed  0.000219  @   233 Kops/s |
+.........| simtime   0.085387 | realtime  2964.5 | speed  0.000203  @   221 Kops/s |
+.........| simtime   0.085569 | realtime  2974.6 | speed  0.000182  @   196 Kops/s |
+.........| simtime   0.085733 | realtime  2984.7 | speed  0.000164  @   178 Kops/s |
+.........| simtime   0.085928 | realtime  2994.4 | speed  0.000195  @   217 Kops/s |
+.........| simtime   0.086139 | realtime  3004.4 | speed  0.000211  @   231 Kops/s |
+.........| simtime   0.086345 | realtime  3014.5 | speed  0.000206  @   224 Kops/s |
+.........| simtime   0.086552 | realtime  3024.5 | speed  0.000208  @   226 Kops/s |
+.........| simtime   0.086757 | realtime  3034.4 | speed  0.000205  @   225 Kops/s |
+.........| simtime   0.086954 | realtime  3044.7 | speed  0.000197  @   208 Kops/s |
+.........| simtime   0.087148 | realtime  3054.5 | speed  0.000194  @   216 Kops/s |
+.........| simtime   0.087344 | realtime  3064.9 | speed  0.000197  @   206 Kops/s |
+.........| simtime   0.087518 | realtime  3074.7 | speed  0.000173  @   193 Kops/s |
+.........| simtime   0.087700 | realtime  3084.8 | speed  0.000182  @   197 Kops/s |
+.........| simtime   0.087878 | realtime  3094.8 | speed  0.000178  @   193 Kops/s |
+.........| simtime   0.088063 | realtime  3104.8 | speed  0.000185  @   204 Kops/s |
+.........| simtime   0.088248 | realtime  3114.9 | speed  0.000185  @   200 Kops/s |
+.........| simtime   0.088415 | realtime  3124.9 | speed  0.000167  @   183 Kops/s |
+.........| simtime   0.088578 | realtime  3134.9 | speed  0.000163  @   177 Kops/s |
+.........| simtime   0.088753 | realtime  3144.9 | speed  0.000175  @   190 Kops/s |
+.........| simtime   0.088924 | realtime  3155.0 | speed  0.000171  @   185 Kops/s |
+.........| simtime   0.089098 | realtime  3164.9 | speed  0.000174  @   191 Kops/s |
+.........| simtime   0.089280 | realtime  3174.9 | speed  0.000182  @   200 Kops/s |
+.........| simtime   0.089469 | realtime  3184.9 | speed  0.000188  @   205 Kops/s |
+.........| simtime   0.089643 | realtime  3195.0 | speed  0.000174  @   190 Kops/s |
+.........| simtime   0.089822 | realtime  3205.0 | speed  0.000179  @   196 Kops/s |
+.........| simtime   0.089984 | realtime  3215.2 | speed  0.000162  @   173 Kops/s |
+.........| simtime   0.090143 | realtime  3225.0 | speed  0.000159  @   177 Kops/s |
+.........| simtime   0.090326 | realtime  3235.1 | speed  0.000183  @   198 Kops/s |
+.........| simtime   0.090497 | realtime  3245.1 | speed  0.000171  @   186 Kops/s |
+.........| simtime   0.090655 | realtime  3255.2 | speed  0.000159  @   173 Kops/s |
+.........| simtime   0.090824 | realtime  3265.4 | speed  0.000168  @   180 Kops/s |
+.........| simtime   0.090965 | realtime  3275.3 | speed  0.000142  @   155 Kops/s |
+.........| simtime   0.091127 | realtime  3285.2 | speed  0.000161  @   177 Kops/s |
+.........| simtime   0.091297 | realtime  3295.3 | speed  0.000170  @   184 Kops/s |
+.........| simtime   0.091468 | realtime  3305.2 | speed  0.000171  @   188 Kops/s |
+.........| simtime   0.091661 | realtime  3315.2 | speed  0.000193  @   211 Kops/s |
+.........| simtime   0.091832 | realtime  3325.2 | speed  0.000170  @   187 Kops/s |
+.........| simtime   0.092010 | realtime  3335.3 | speed  0.000179  @   193 Kops/s |
+.........| simtime   0.092197 | realtime  3345.3 | speed  0.000186  @   203 Kops/s |
+.........| simtime   0.092379 | realtime  3355.2 | speed  0.000183  @   203 Kops/s |
+.........| simtime   0.092588 | realtime  3365.1 | speed  0.000208  @   230 Kops/s |
+.........| simtime   0.092787 | realtime  3375.3 | speed  0.000199  @   214 Kops/s |
+.........| simtime   0.092968 | realtime  3385.3 | speed  0.000181  @   198 Kops/s |
+.........| simtime   0.093163 | realtime  3395.4 | speed  0.000195  @   211 Kops/s |
+.........| simtime   0.093341 | realtime  3405.6 | speed  0.000179  @   191 Kops/s |
+.........| simtime   0.093517 | realtime  3415.6 | speed  0.000176  @   192 Kops/s |
+.........| simtime   0.093699 | realtime  3425.5 | speed  0.000182  @   201 Kops/s |
+.........| simtime   0.093879 | realtime  3435.5 | speed  0.000181  @   196 Kops/s |
+.........| simtime   0.094067 | realtime  3445.4 | speed  0.000188  @   209 Kops/s |
+.........| simtime   0.094279 | realtime  3455.3 | speed  0.000212  @   232 Kops/s |
+.........| simtime   0.094483 | realtime  3465.4 | speed  0.000204  @   222 Kops/s |
+.........| simtime   0.094701 | realtime  3475.4 | speed  0.000218  @   238 Kops/s |
+.........| simtime   0.094906 | realtime  3485.4 | speed  0.000205  @   224 Kops/s |
+.........| simtime   0.095126 | realtime  3495.3 | speed  0.000220  @   244 Kops/s |
+.........| simtime   0.095352 | realtime  3505.3 | speed  0.000225  @   247 Kops/s |
+.........| simtime   0.095566 | realtime  3515.6 | speed  0.000215  @   228 Kops/s |
+.........| simtime   0.095738 | realtime  3525.7 | speed  0.000172  @   189 Kops/s |
+.........| simtime   0.095907 | realtime  3535.7 | speed  0.000168  @   183 Kops/s |
+.........| simtime   0.096084 | realtime  3545.7 | speed  0.000177  @   195 Kops/s |
+.........| simtime   0.096266 | realtime  3555.8 | speed  0.000182  @   196 Kops/s |
+.........| simtime   0.096434 | realtime  3565.7 | speed  0.000168  @   185 Kops/s |
+.........| simtime   0.096606 | realtime  3575.8 | speed  0.000172  @   189 Kops/s |
+.........| simtime   0.096779 | realtime  3585.8 | speed  0.000173  @   189 Kops/s |
+.........| simtime   0.096952 | realtime  3595.8 | speed  0.000173  @   189 Kops/s |
+.........| simtime   0.097123 | realtime  3605.8 | speed  0.000171  @   187 Kops/s |
+.........| simtime   0.097298 | realtime  3615.8 | speed  0.000175  @   191 Kops/s |
+.........| simtime   0.097464 | realtime  3625.8 | speed  0.000166  @   182 Kops/s |
+.........| simtime   0.097635 | realtime  3635.8 | speed  0.000171  @   188 Kops/s |
+.........| simtime   0.097816 | realtime  3646.0 | speed  0.000182  @   195 Kops/s |
+.........| simtime   0.098002 | realtime  3655.9 | speed  0.000186  @   205 Kops/s |
+.........| simtime   0.098171 | realtime  3666.0 | speed  0.000169  @   184 Kops/s |
+.........| simtime   0.098355 | realtime  3675.9 | speed  0.000184  @   203 Kops/s |
+.........| simtime   0.098529 | realtime  3686.1 | speed  0.000174  @   187 Kops/s |
+.........| simtime   0.098718 | realtime  3695.7 | speed  0.000189  @   215 Kops/s |
+.........| simtime   0.098953 | realtime  3706.1 | speed  0.000235  @   248 Kops/s |
+.........| simtime   0.099181 | realtime  3715.7 | speed  0.000228  @   260 Kops/s |
+.........| simtime   0.099425 | realtime  3725.8 | speed  0.000244  @   266 Kops/s |
+.........| simtime   0.099656 | realtime  3735.8 | speed  0.000231  @   253 Kops/s |
+.........| simtime   0.099898 | realtime  3746.1 | speed  0.000242  @   259 Kops/s |
+.....
+========= GLOBAL FCT SUMMARY (all FlowGenerators) =========
+Total completed flows   : 744005
+Total FCT (ms)          : 9.58042e+06
+Average FCT (ms)        : 12.8768
+Small  (<100KB) count   : 0, avg FCT (ms): 0
+Large (>=100KB) count   : 744005, avg FCT (ms): 12.8768
+===========================================================
+
+Exiting successfully!

@@ -739,7 +739,8 @@ void FlowGenerator::createFlow(uint64_t flowSize, simtime_picosec startTime){
     src->setFlowGenerator(this);
 
     // ✅ 记录起始
-    note_flow_start(src->id, flowSize, start_time);
+    //note_flow_start(src->id, flowSize, start_time);
+    note_flow_start(src->id, flowSize, EventList::Get().now());
 
     _liveFlows[src->id] = src;
     _flowsGenerated++;
@@ -781,6 +782,20 @@ void FlowGenerator::note_flow_start(uint32_t id, uint64_t sizeB, simtime_picosec
     m.sizeB = sizeB;
     m.start = start;
     m.finished = false;
+
+// ✅ 添加调试
+    static int debug_count = 0;
+    if (debug_count < 5) {
+        cout << "\n=== DEBUG note_flow_start ===" << endl;
+        cout << "Flow ID: " << id << endl;
+        cout << "Size: " << sizeB << " bytes" << endl;
+        cout << "Start (ps): " << start << endl;
+        cout << "Start (us): " << timeAsUs(start) << endl;
+        cout << "Start (ms): " << timeAsMs(start) << endl;
+        cout << "============================\n" << endl;
+        debug_count++;
+    }
+
 }
 
 void FlowGenerator::note_flow_finish(uint32_t id, simtime_picosec end){
@@ -791,6 +806,24 @@ void FlowGenerator::note_flow_finish(uint32_t id, simtime_picosec end){
     m.end = end; m.finished = true;
     simtime_picosec dur = (m.end > m.start) ? (m.end - m.start) : 0;
     double fct_ms = ps_to_ms(dur);
+
+// ✅ 添加调试
+    static int debug_count = 0;
+    if (debug_count < 5) {
+        cout << "\n=== DEBUG note_flow_finish ===" << endl;
+        cout << "Flow ID: " << id << endl;
+        cout << "Size: " << m.sizeB << " bytes" << endl;
+        cout << "Start (ps): " << m.start << endl;
+        cout << "Start (us): " << timeAsUs(m.start) << endl;
+        cout << "End (ps): " << end << endl;
+        cout << "End (us): " << timeAsUs(end) << endl;
+        cout << "Duration (ps): " << dur << endl;
+        cout << "FCT (ms): " << fct_ms << endl;
+        cout << "Expected from logs: ~100+ ms" << endl;
+        cout << "============================\n" << endl;
+        debug_count++;
+    }
+
     _sum_fct_ms += fct_ms;
     _completed++;
     if (m.sizeB < SMALL_TH) { _sum_small_ms += fct_ms; _cnt_small++; }

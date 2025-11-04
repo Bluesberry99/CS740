@@ -12,8 +12,8 @@
 class CompareFqPackets
 {
 public:
-    bool operator() (std::pair<uint64_t,Packet*> a,
-                     std::pair<uint64_t,Packet*> b)
+    bool operator() (const std::pair<uint64_t,Packet*> a,
+                     const std::pair<uint64_t,Packet*> b)const
     {
         if (a.first < b.first) {
             return true;
@@ -67,3 +67,4 @@ private:
 };
 
 #endif
+

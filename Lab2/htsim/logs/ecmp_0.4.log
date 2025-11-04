@@ -1,0 +1,6 @@
+expt : 2
+workload : patero
+load : 0.4
+scheme : ecmp
+seed : 1
+.

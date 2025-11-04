@@ -160,7 +160,7 @@ void conga_testbed(const ArgList& args, Logfile& logfile){
   else if(workload=="datamining") flowdist=Workloads::DATAMINING;
 
   EventList& ev = EventList::Get();
-  ev.setEndtime(timeFromSec(1));
+  ev.setEndtime(timeFromSec(0.1));
   //auto* qlog = new QueueLoggerSampling(timeFromUs(100)); logfile.addLogger(*qlog);
 
   // 构网：每个 leaf 对 12 个 core 各有一条 40G 上联；每个 leaf 下接 32 台 10G 服务器
@@ -198,7 +198,8 @@ attach_leaf_samplers();
     flowdist
   );
   fg->setEndhostQueue(CORE40G, ENDH_BUFFER);
-  fg->setTimeLimits(timeFromUs(1), timeFromSec(10)-timeFromSec(1));
+  //fg->setTimeLimits(timeFromUs(1), timeFromSec(10)-timeFromSec(1));
+  fg->setTimeLimits(timeFromSec(0), timeFromSec(0.18));
   // TODO：在你的 Logger/回调里把每个完成流落 CSV 到 outcsv（或先用 grep “Flow ...” 导出）
 }
 

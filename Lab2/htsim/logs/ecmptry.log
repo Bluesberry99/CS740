@@ -1,0 +1,9 @@
+expt : 2
+workload : uniform
+load : 0.01
+scheme : ecmp
+seed : 1
+.........| simtime   0.138021 | realtime     8.5 | speed  0.138021  @  3028 Kops/s |
+.........| simtime   0.305121 | realtime    18.5 | speed  0.167100  @  3086 Kops/s |
+.........| simtime   0.463661 | realtime    28.5 | speed  0.158540  @  2952 Kops/s |
+.....

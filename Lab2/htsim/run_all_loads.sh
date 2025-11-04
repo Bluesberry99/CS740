@@ -4,10 +4,10 @@
 # 创建 logs 文件夹（如果不存在）
 mkdir -p logs
 
-for load in $(seq 0.4 0.1 1.0); do
+for load in $(seq 0.1 0.1 1.0); do
   echo "=== Running simulation with load=${load} ==="
-  out="logs/ecmp_${load}.log"
-  cmd="./htsim --expt=2 --workload=uniform --load=${load} --scheme=ecmp --seed=1"
+  out="logs/ecmp_patero_${load}.log"
+  cmd="./htsim --expt=2 --workload=patero --load=${load} --scheme=ecmp --seed=1"
 
   # 运行仿真，并且：
   # - 输出保存到日志文件

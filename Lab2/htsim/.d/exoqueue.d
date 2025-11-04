@@ -1,9 +1,26 @@
-.obj/exoqueue.o: exoqueue.cpp exoqueue.h network.h htsim.h loggertypes.h
-
+.obj/exoqueue.o: exoqueue.cpp exoqueue.h network.h htsim.h \
+  /usr/include/c++/13/cassert /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/climits /usr/include/c++/13/cmath \
+  /usr/include/c++/13/ext/numeric_traits.h /usr/include/c++/13/cstdint \
+  /usr/include/c++/13/cstdio /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cstring /usr/include/c++/13/ctime \
+  /usr/include/c++/13/string /usr/include/c++/13/iomanip \
+  /usr/include/c++/13/iostream loggertypes.h /usr/include/c++/13/vector
 exoqueue.h:
-
 network.h:
-
 htsim.h:
-
+/usr/include/c++/13/cassert:
+/usr/include/c++/13/pstl/pstl_config.h:
+/usr/include/c++/13/climits:
+/usr/include/c++/13/cmath:
+/usr/include/c++/13/ext/numeric_traits.h:
+/usr/include/c++/13/cstdint:
+/usr/include/c++/13/cstdio:
+/usr/include/c++/13/cstdlib:
+/usr/include/c++/13/cstring:
+/usr/include/c++/13/ctime:
+/usr/include/c++/13/string:
+/usr/include/c++/13/iomanip:
+/usr/include/c++/13/iostream:
 loggertypes.h:
+/usr/include/c++/13/vector:

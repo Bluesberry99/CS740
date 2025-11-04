@@ -1,0 +1,7 @@
+expt : 2
+workload : patero
+load : 0.1
+scheme : ecmp
+seed : 1
+.........| simtime   0.013408 | realtime     9.1 | speed  0.013408  @  2445 Kops/s |
+.
